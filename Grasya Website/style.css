@@ -179,3 +179,43 @@ body {
     margin-right: 10px;
     color: #ff7f50;
 }
+
+.favorites {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    background-color: #F5F5DC; 
+}
+
+.favorites h1 {
+    background-color: #85854b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.favorites p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cart {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    background-color: #F5F5DC; 
+}
+
+.cart h1 {
+    background-color: #85854b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cart p {
+    text-align: center;
+    padding: 10px 0;
+}
