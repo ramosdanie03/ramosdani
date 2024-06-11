@@ -84,7 +84,8 @@ body {
 }
 
 .product-item img {
-    max-width: 100%;
+    width: 100%;
+    overflow: hidden; 
     height: auto;
     border-radius: 5px;
 }
