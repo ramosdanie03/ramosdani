@@ -1,0 +1,266 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar img.logo {
+    width: 120px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #ff7f50;
+}
+
+.navbar ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.navbar ul a:hover {
+    color: #ff7f50;
+}
+
+
+.banner {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+#products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#products .heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-item .button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.product-item .button:hover {
+    background-color: #ff6347;
+}
+
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#about .heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.about-text {
+    max-width: 600px;
+    margin: 10px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact .heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    max-width: 400px;
+    margin: 20px;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #ff7f50;
+}
+
+.favorites {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    background-color: #F5F5DC; 
+}
+
+.favorites h1 {
+    background-color: #85854b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.favorites p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cart {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    background-color: #F5F5DC; 
+}
+
+.cart h1 {
+    background-color: #85854b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cart p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.othercodes {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #F5F5DC; 
+}
+
+.othercodes h1 {
+    background-color: #85854b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.quiz {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #F5F5DC; 
+}
+
+.quiz h1 {
+    background-color: #85854b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.jspractices {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #F5F5DC; 
+}
+
+.jspractices h1 {
+    background-color: #85854b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
